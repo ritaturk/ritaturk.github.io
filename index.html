@@ -9,29 +9,9 @@
   <script src="https://aframe.io/releases/0.2.0/aframe.min.js"></script>
   </head>
   <body>
-    <iframe src="http://www.w3schools.com">
-        <p> "Hello COLLADA World in A-Frame!"</p>
-    </iframe>
+    <iframe src="http://www.w3schools.com" WIDTH=450 HEIGHT=100></iframe>
       
-      <iframe
-        <a-scene>
-        <a-assets>
-                  <a-asset-item id="collada" src="COLLADA.dae"></a-asset-item>
-        </a-assets>
-    
-       
-        <a-entity light="type: hemisphere; color: #FFF; groundColor: #000; intensity: 1"></a-entity>
-        <a-entity position="1.5 .25 2" collada-model="#collada"></a-entity>  
-        <a-sphere position="-1 1.25 0" radius="1" color="#EF2D5E"></a-sphere>
-        <a-box position="-1 1.5 2" rotation="0 45 0" width=".5" height="1" depth=".5" color="#4C4870"></a-box>
-        <a-cylinder position="1 0.75 .75" radius=".75" height="1.5" color="#05F729"></a-cylinder>
-         <a-plane position=“-.5 -.25 -3" rotation="30 20 45" width="10" height=“30" color="#58A19E"></a-plane> 
-        
-        <a-sky color="b0e0e6"></a-sky>
-        <a-light type="directional" color="#f0f8ff" intensity="0.1" position="-2 2 1"></a-light>
-        <a-light type="ambient" color="#fff"></a-light>
-    
-        </a-scene>
-      </iframe>
+    <iframe id="exampleIframe" class="example__iframe" width="100%" height="100%" allowfullscreen="yes" scrolling="no" src="https://aframe.io/aframe/examples/boilerplate-helloworld/"></iframe>
+     
   </body>
 </html>
